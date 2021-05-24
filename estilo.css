@@ -1,7 +1,7 @@
 *{
 	font-family: Arial, sans-serif;;
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 100%;
 	color: #000;
 	padding: 0;
 	margin: 0;
@@ -13,16 +13,23 @@ html{
 }
 
 body{
-	background-image: url("https://www.itl.cat/pngfile/big/285-2855828_simple-subtle-abstract-dark-minimalism-4k-1440p-data.jpg");
+	background-image: url("https://i.gifer.com/1Fvo.gif");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed
+	background-attachment: fixed;
 }
 
+
+
+header{
+	width: 100%;
+	height: 5%;
+}
 
 h1{
 	padding: 10% 10% 0%;
 	text-shadow: -2px -2px 1px #fff, 2px 2px 1px #fff, -2px 2px 1px #fff, 2px -2px 1px #fff;
-	font-size: 80px;
+	font-size: 400%;
 }
 
 p{
@@ -33,24 +40,25 @@ p{
 
 h3{
 	color: #EDB303;
-	font-size: 30px;
+	font-size: 200%;
 }
 
 
 img{
 	width: 100%;
-	height: 200px;
+	height: 100%;
 	object-fit: contain;
 }
 
 img:hover{
 	position: relative;
-	height: 150%;
-	width:  150%;
-	background: #EDB303;
+	height: 149%;
+	width:  149%;
+	background-image: url("https://thumbs.gfycat.com/FrayedTightIslandwhistler-max-1mb.gif");
+	background-size: cover;
 	border: 3px solid #fff;
 	border-radius: 10px;
-	object-fit: contain;
+	object-fit: scale-down;
 }
 
 img.img{
@@ -58,92 +66,97 @@ img.img{
 	width: 50%;
 	height: 50%;
 	object-fit: cover;
-	overflow: hidden;
 }
 
 img.img:hover{
-	padding: 5%;
-	width: 78%;
-	height: 78%;
-	border-radius: 200px;
-	background-color: #000;
+	padding: 15%;
+	width: 49%;
+	height: 49%;
+	border-radius: 700px;
+	background-image: url("https://i.gifer.com/1Fvo.gif");
+	background-size: cover;
+	object-fit: contain;
 }
 
 img.imgnone:hover{
 	width: 100%;
-	height: 200px;
+	height: 100%;
+	border: 3px solid red;
+	border-radius: 5px;
 	object-fit: contain;
-	border: none;
-	background: red;
+	background-image: url("https://i1.wp.com/media0.giphy.com/media/l0Ex4HtNehFYfpCNy/source.gif");
 }
 
 
+
 .grid-container{
+	text-align: left;
+	font-size: 90%;
 	width: 100%;
 	display: grid;
 	grid-template-columns:  16% 16% 16% 16% 18% 1fr;
-
 	grid-template-rows: 10% 45% 45%;
-	border: 3px solid #fff;
+	border: 3px solid #000;
 	background-color: #fff;
 	border-radius: 10px;
 }
 
 .grid-item:nth-child(1){
-	font-size: 100%;
+	font-size: 70%;
 	padding-top: 1%;
 	background: #EDB303;
 	grid-column: 1/5;
 }
 .grid-item:nth-child(2){
-	font-size: 100%;
+	font-size: 70%;
 	padding-top: 1%;
 	background: #EDB303;
 	grid-column: 5/7;
 }
 
 header {
-  background: #fff;
-  width: 100%;
-  position: fixed;
-  z-index: 100;
+  	background: #fff;
+  	width: 100%;
+  	position: fixed;
+  	z-index: 100;
 }
 
 
 nav {
-  float: left;
+  	float: left;
 }
 
 nav ul{
-  list-style: none;
-  overflow: hidden; 
+  	list-style: none;
+  	overflow: hidden; 
 }
 
 nav ul li {
-  float: left;
-  font-size: 16px;
+  	float: left;
+  	font-size: 50%;
 }
 
 nav ul li a {
-  display: block; 
-  padding: 20px;
-  color: #000;
-  text-decoration: none;
+  	display: block; 
+  	padding: 20px;
+  	color: #000;
+  	text-decoration: none;
 }
 
 nav ul li:hover {
-  background: #EDB303;
+  	background: #EDB303;
 }
 
 .contenido {
-  padding-top: 80px;
+  	padding-top: 10%;
 }
 
 .wrapper {
-  width: 80%;
-  margin: auto;
-  overflow:hidden;
+  	width: 90%;
+ 	margin: auto;
+ 	overflow:hidden;
 }
+
 
 .grid-elecc{
 	margin: 0;
@@ -152,17 +165,17 @@ nav ul li:hover {
 	height: 100%;
 	display: grid;
 	grid-template-columns:  25%  1fr;
-
+	border: 3px solid #EDB303;
 	grid-template-rows: 100%;
 	border-radius: 10px;
-	grid-column-gap: 20px;
+	grid-column-gap: 1%;
 }
 
 .grid-descrip{
-	margin: 10%;
-	padding: 10%;
-
-	border: 3px solid #fff;
+	margin: 5%;
+	padding: 5%;
+	font-size: 90%;
+	border: 3px solid #EDB303;
 	background-color: #555;
 	color: #EDB303;
 	border-radius: 10px;
@@ -171,14 +184,14 @@ nav ul li:hover {
 
 
 .galery-content{
-	padding: 12px;
+	padding: 1%;
 	margin: 4%;
 	width: 90%;
 	height: 90%;
 	display: grid;
 	grid-template-columns: 19% 19% 19% 19% 1fr;
 
-	grid-auto-rows: 200px;
+	grid-auto-rows: 23%;
 	border: 3px solid white;
 	background-color: #000;
 	border-radius: 10px;
@@ -186,15 +199,12 @@ nav ul li:hover {
 }
 
 .galery-item{
-	
 	border-radius: 5px;
-	background-image: url("https://www.itl.cat/pngfile/big/285-2855828_simple-subtle-abstract-dark-minimalism-4k-1440p-data.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed
+	background-image: url("https://64.media.tumblr.com/a299af0357ebffb795aa0b5b44749801/tumblr_inline_pk08b1KucL1qhzzrt_400.gifv");
 }
 
 .galery-item:nth-child(4){
-	font-size: 100%;
+	font-size: 80%;
 	padding-top: 1%;
 	background: #EDB303;
 	grid-column: 4/6;
@@ -207,25 +217,58 @@ nav ul li:hover {
 	color: #EDB303;
 	padding-top: 10%;
 	padding-left: 4%;
-	font-size: 40px;
+	font-size: 150%;
+}
+
+footer{
+	padding-bottom: 0;
+	width: 100%;
+	height: 60%;
+	display: inline-block;
+	background-color: #fff;
+	text-align: center;
 }
 
 .footer {
-  height: 4rem;
-  background-color: #fff;
-  color: #000;
-  text-align: center;
+	width: 30%;
+	height: 30%;
+  	background-color: #fff;
+  	color: #000;
+  	display: inline-block;
+  	object-fit: scale-down;
 }
 
-div.footer{
-	margin-top: 2%;
-	text-align: center;
-	display: inline-block;
-	height: 50%;
-}
 
-a.footer:hover{
+img.footer:hover{
 	background: #EDB303;
+	height: 25%;
+	width:  25%;
+	border: 5px solid #000;
+	border-radius: 10px;
+	object-fit: scale-down;
 }
 
+
+.grid-item{
+	font-size: 50px;
+}
+
+
+@media screen and (min-width: 775px){
+	nav ul li{
+		font-size: 100%;
+	}
+	.grid-container{
+		font-size: 150%;
+	}
+	.grid-descrip{
+		font-size: 150%;
+	}
+	.galery-item:nth-child(4){
+		font-size: 150%;
+	}
+	.subtitulo{
+		font-size: 250%;
+	}
+}
 

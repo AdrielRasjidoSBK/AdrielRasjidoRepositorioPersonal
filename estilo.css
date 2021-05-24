@@ -254,7 +254,7 @@ img.footer:hover{
 }
 
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1024px){
 	nav ul li{
 		font-size: 100%;
 	}

@@ -133,7 +133,7 @@ nav ul{
 
 nav ul li {
   	float: left;
-  	font-size: 50%;
+  	font-size: 25%;
 }
 
 nav ul li a {
@@ -174,7 +174,7 @@ nav ul li:hover {
 .grid-descrip{
 	margin: 5%;
 	padding: 5%;
-	font-size: 90%;
+	font-size: 65%;
 	border: 3px solid #EDB303;
 	background-color: #555;
 	color: #EDB303;

@@ -91,7 +91,7 @@ img.imgnone:hover{
 
 .grid-container{
 	text-align: left;
-	font-size: 90%;
+	font-size: 50%;
 	width: 100%;
 	display: grid;
 	grid-template-columns:  16% 16% 16% 16% 18% 1fr;
@@ -102,13 +102,13 @@ img.imgnone:hover{
 }
 
 .grid-item:nth-child(1){
-	font-size: 70%;
+	font-size: 50%;
 	padding-top: 1%;
 	background: #EDB303;
 	grid-column: 1/5;
 }
 .grid-item:nth-child(2){
-	font-size: 70%;
+	font-size: 50%;
 	padding-top: 1%;
 	background: #EDB303;
 	grid-column: 5/7;
@@ -133,12 +133,13 @@ nav ul{
 
 nav ul li {
   	float: left;
-  	font-size: 25%;
+  	font-size: 50%;
 }
 
 nav ul li a {
   	display: block; 
-  	padding: 20px;
+  	padding: 8px;
+  	padding-bottom: 10px;
   	color: #000;
   	text-decoration: none;
 }
@@ -174,7 +175,11 @@ nav ul li:hover {
 .grid-descrip{
 	margin: 5%;
 	padding: 5%;
-	font-size: 65%;
+
+
+	font-size: 50%;
+
+
 	border: 3px solid #EDB303;
 	background-color: #555;
 	color: #EDB303;
@@ -254,12 +259,12 @@ img.footer:hover{
 }
 
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 775px){
 	nav ul li{
 		font-size: 100%;
 	}
 	.grid-container{
-		font-size: 150%;
+		font-size: 250%;
 	}
 	.grid-descrip{
 		font-size: 150%;
